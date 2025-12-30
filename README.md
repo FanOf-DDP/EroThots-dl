@@ -11,13 +11,15 @@ EroGrabber is a lightweight Ruby tool designed to make downloading video content
 
 ## ✨ Features
 - **No Developer Tools Required**: You don't need to open the "Network" tab or search for `.mp4` links manually.
-- **One-Click Logic**: Just copy the URL from your browser address bar and run the script.
 - **High Quality**: Downloads the original stream directly from the CDN using `ffmpeg`.
-- **Clipboard Support**: Automatically detects if you have a link copied to your clipboard.
+- **Automated Path Fixing**: Automatically handles CDN formatting (adding hostnames and slashes) so you don't have to.
 
-## 🛠 Prerequisites
-To use this script, you need to have **Ruby** and **FFmpeg** installed on your system.
+## 🛠 Prerequisites & Installation
 
-### For Linux (Arch/Artix):
+To use this script, you need to have **Ruby**, **FFmpeg**, and **xclip** installed. Find your Operating System below for instructions:
+
+### 🐧 Linux
+
+**Arch / Artix Linux:**
 ```bash
 sudo pacman -S ruby ffmpeg xclip
